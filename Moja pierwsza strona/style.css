@@ -1,0 +1,80 @@
+.nawigacja {
+                width: 800px;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 40px;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+a {
+                color: black;
+                text-decoration: none;
+}
+
+a:hover {
+                border-bottom: 2px dashed green;
+}
+
+a:visited {
+                color: darkgreen;
+}
+.kontener {
+                border: 1px solid black;
+                width: 800px;
+                margin: auto;
+                margin-top: 60px;
+                padding: 20px;
+                background-color: forestgreen;
+                font-family: sans-serif;
+            }
+            
+            .naglowek {
+                text-align: center;
+                color: white;
+            }
+            
+            .rzad {
+                display: flex;
+            }
+            
+            .left-section {
+                width: 70%;
+                color: white;
+                margin-right: 20px;
+            }
+            
+            .right-section {
+                width: 30%;
+            }
+            
+            .zdjecie {
+                width:100%;
+            }
+            
+            .rzad2 {
+                display: flex;
+                color: white;
+            }
+            
+            .kategorie {
+                margin-right:20px;
+            }
+            
+            .atuty {
+                 margin-right: 20px;
+            }
+            
+            .ocena {
+                margin-right: 20px;
+            }
+
+@media screen and (max-width: 1000px) {
+    .kontener {
+        width: 50%;
+    }
+    
+    .zdjecie { 
+        width: 80%;
+    }
+}

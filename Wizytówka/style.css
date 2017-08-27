@@ -1,0 +1,30 @@
+.projekt {
+    width: 60%;
+    margin: auto;
+    marign-top: 40px;
+    display: flex;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.lewa-sekcja, .prawa-sekcja {
+    width: 50%;
+    padding: 40px;
+}
+
+.lewa-sekcja {
+    background-color: coral;
+}
+
+.prawa-sekcja {
+    background-color: mediumvioletred;
+}
+
+.zdjecie-ania {
+    width: 100%;
+}
+
+button {
+    background-color: mediumvioletred;
+    color: white;
+}

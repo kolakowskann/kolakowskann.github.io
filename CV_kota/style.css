@@ -1,0 +1,49 @@
+.CV-kota {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px black;
+    box-shadow: 1px 1px 10px 1px grey;    
+    font-family: sans-serif;
+}
+
+.sekcja1 {
+    display: flex;
+    background-color: mediumvioletred;
+    padding: 30px;
+}
+
+.lewa-sekcja {
+    width: 80%;
+    color: white;
+}
+
+.prawa-sekcja  {
+    width: 20%;
+}
+
+.zdjecie-kota {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.sekcja2 {
+    padding: 20px;
+}
+
+.ulubione-karmy {
+    padding-bottom: 20px;
+}
+
+.karmy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zdjecie1, .zdjecie2, .zdjecie3 {
+    width: 20%;
+}
+
+.karma1, .karma2, .karma3 {
+    width: 100%;
+}
